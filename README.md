@@ -8,8 +8,8 @@ Biomedical AI research portfolio for **https://heoneyzi.github.io/**.
 
 1. `heoneyzi` 계정에서 **heoneyzi.github.io**라는 public 저장소를 만듭니다.
 2. 이 폴더의 파일을 저장소의 `main` 브랜치 최상위에 업로드합니다.
-3. 저장소 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**, **main**, **/ (root)**를 선택하고 저장합니다.
-4. GitHub의 Pages 배포 완료 후 **https://heoneyzi.github.io/**에서 확인합니다.
+3. 저장소 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**, **main**, `/ (root)`를 선택하고 저장합니다.
+4. GitHub의 Pages 배포 완료 후 [홈페이지](https://heoneyzi.github.io/)에서 확인합니다.
 
 별도의 서버, Node.js 설치, API 키, 유료 서비스가 필요하지 않은 HTML/CSS/JavaScript 정적 사이트입니다. `.nojekyll`은 Jekyll 처리를 생략하도록 지정합니다.
 
