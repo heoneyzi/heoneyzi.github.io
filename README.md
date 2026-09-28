@@ -43,3 +43,5 @@ JavaScript가 꺼져 있어도 영어 본문과 모든 링크가 동작합니다
 The GitHub profile is the portfolio entry point. Source material is organized in [Medical](https://github.com/heoneyzi/Medical), [Paper](https://github.com/heoneyzi/Paper), [Study](https://github.com/heoneyzi/Study), and [Deep_Daiv](https://github.com/heoneyzi/Deep_Daiv). Historical repositories are preserved in [Portfolio-Archive](https://github.com/heoneyzi/Portfolio-Archive).
 
 `Jiheon_Kang_CV.pdf` is the exact user-provided September 2026 `Jiheon_CV_updated.pdf` (SHA-256: `a722b654bfa8f6916408ce05bf8dcb96aa11d108f5d45faea8cdec2706dde98c`).
+
+Published from the reviewed September 28, 2026 source snapshot. The site is served from the root of the `main` branch with `.nojekyll`.
