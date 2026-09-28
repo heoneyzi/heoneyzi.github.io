@@ -141,7 +141,7 @@ PROJECTS = [
                 '유전자를 잃은 세포가 어떻게 반응할지는 벤치마크 설계자가 아니라 자연이 정합니다. 우리 결과는 지금의 세포 임베딩이 그 규칙의 일부만 담고 있음을 보여 줍니다. 그 규칙을 더 많이 담는 표현과 벤치마크를 만들고 싶습니다.'),
         gh=('01_Medical/VCC_2026', ('Pipeline and experiments on GitHub', 'GitHub에서 파이프라인과 실험 보기')),
         links=[
-            ('code', gh('01_Medical/VCC_2026'), ('Code & experiments', '코드와 실험')),
+            ('code', gh('01_Medical/VCC_2026/experiments'), ('Experiment records', '개별 실험 기록')),
             ('site', 'https://virtualcellchallenge.org/', ('Challenge site', '챌린지 사이트')),
         ],
     ),
@@ -252,7 +252,7 @@ PROJECTS = [
                 '약물이 세포에 하는 일은 사진으로 찍을 수 있는 자연의 규칙입니다. 모델이 그 규칙을 배운다면, 화학자가 시도하지 않았을 분자를 제안할 수 있습니다. 다음 단계는 서로 다른 세포주에서 이미지 쪽을 검증해, 실제 실험실에서 쓸 수 있게 만드는 일입니다.'),
         gh=('01_Medical/PhenoFocus', ('Experiments and code on GitHub', 'GitHub에서 실험과 코드 보기')),
         links=[
-            ('code', gh('01_Medical/PhenoFocus'), ('Code & experiments', '코드와 실험')),
+            ('code', gh('01_Medical/PhenoFocus/experiments'), ('Experiment records', '개별 실험 기록')),
             ('paper', 'https://www.biorxiv.org/content/10.64898/2026.06.10.731476v1', ('PhenoCompass preprint', 'PhenoCompass 프리프린트')),
         ],
     ),
