@@ -2,7 +2,7 @@
 
 Biomedical AI research portfolio for **https://heoneyzi.github.io/**.
 
-연세대학교 전기전자공학부 강지헌의 연구 포트폴리오 사이트입니다. 첫 화면(표지)에서 관심 분야와 대표 성과를 한눈에 보여 주고, 프로젝트 카드를 누르면 **주제 → 한 일 → 결과 → 비전**을 짧게 정리한 페이지가 열립니다. 코드와 실험의 세부 내용은 각 페이지의 GitHub 버튼으로 [Portfolio 저장소](https://github.com/heoneyzi/Portfolio)에 연결됩니다.
+연세대학교 전기전자공학부 강지헌의 연구 포트폴리오 사이트입니다. 첫 화면(표지)에서 관심 분야와 대표 성과를 한눈에 보여 주고, 프로젝트 카드를 누르면 **주제 → 한 일 → 결과 → 비전**을 짧게 정리한 페이지가 열립니다. 코드와 실험의 세부 내용은 각 페이지의 GitHub 버튼으로 [Medical](https://github.com/heoneyzi/Medical) · [Paper](https://github.com/heoneyzi/Paper) · [Study](https://github.com/heoneyzi/Study) · [Deep_Daiv](https://github.com/heoneyzi/Deep_Daiv) 저장소에 연결됩니다.
 
 ## 구성
 
@@ -42,6 +42,6 @@ JavaScript가 꺼져 있어도 영어 본문과 모든 링크가 동작합니다
 
 The GitHub profile is the portfolio entry point. Source material is organized in [Medical](https://github.com/heoneyzi/Medical), [Paper](https://github.com/heoneyzi/Paper), [Study](https://github.com/heoneyzi/Study), and [Deep_Daiv](https://github.com/heoneyzi/Deep_Daiv). Historical repositories are preserved in [Portfolio-Archive](https://github.com/heoneyzi/Portfolio-Archive).
 
-`Jiheon_Kang_CV.pdf` is the exact user-provided September 2026 `Jiheon_CV_updated.pdf` (SHA-256: `a722b654bfa8f6916408ce05bf8dcb96aa11d108f5d45faea8cdec2706dde98c`).
+`Jiheon_Kang_CV.pdf` is the exact user-provided September 2026 `Jiheon_CV_updated_web.pdf` (SHA-256: `6ba07da961cdc43c327f5ca5f5baaeb1a75e81567fbda2093d58e353ae36fa56`).
 
 Published from the reviewed September 28, 2026 source snapshot. The site is served from the root of the `main` branch with `.nojekyll`.
