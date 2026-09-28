@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Concept illustrations (inline SVG, 480x270). Colours come from CSS classes in site.css,
-so the same drawing works in dark and light themes. Text with class 'lbl' is hidden in card thumbnails."""
+so each drawing uses the site’s light palette. Text with class 'lbl' is hidden in card thumbnails."""
 import math
 from html import escape
 

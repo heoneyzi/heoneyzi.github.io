@@ -57,8 +57,6 @@ ICONS = {
     'file': '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/>',
     'code': '<path d="m8 7-5 5 5 5M16 7l5 5-5 5"/>',
     'user': '<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>',
-    'sun': '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
-    'moon': '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
     'arrow': '<path d="M5 12h14M13 6l6 6-6 6"/>',
     'ext': '<path d="M14 4h6v6M10 14 20 4M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/>',
     'mic': '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
@@ -113,7 +111,6 @@ def topbar(prefix, crumbs):
       <a class="tb-btn" href="{GITHUB}" target="_blank" rel="noopener" aria-label="GitHub">{ic('code')}<span class="t">GitHub</span></a>
       <a class="tb-btn" href="mailto:{EMAIL}" aria-label="Email" data-ko-aria="이메일">{ic('mail')}<span class="t" data-ko="이메일">Email</span></a>
       <span class="tb-sep" aria-hidden="true"></span>
-      <button class="ib theme-btn" type="button" data-theme-toggle data-l-light="Switch to light theme" data-l-dark="Switch to dark theme" aria-label="Switch to light theme">{ic('sun', 'ic i-sun')}{ic('moon', 'ic i-moon')}</button>
       <button class="lang-btn" type="button" data-lang-toggle aria-label="한국어로 보기" aria-pressed="false"><span class="l-en">EN</span><span class="l-ko">KR</span></button>
     </div>
   </div>
@@ -123,15 +120,15 @@ def topbar(prefix, crumbs):
 
 def page(prefix, title, title_ko, desc, canonical, body, crumbs):
     return f'''<!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title>
 <meta name="title-ko" content="{e(title_ko)}">
 <meta name="description" content="{e(desc)}">
-<meta name="theme-color" content="#0b1011">
-<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#f4f8f8">
+<meta name="color-scheme" content="light">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{e(title)}">
@@ -143,9 +140,8 @@ def page(prefix, title, title_ko, desc, canonical, body, crumbs):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="{prefix}assets/site.css">
-<script>(function(){{try{{var t=localStorage.getItem('hz-theme');if(t==='light'){{document.documentElement.setAttribute('data-theme','light');}}}}catch(e){{}}}})();</script>
-<script src="{prefix}assets/site.js" defer></script>
+<link rel="stylesheet" href="{prefix}assets/site.css?v=light-only-20260928">
+<script src="{prefix}assets/site.js?v=light-only-20260928" defer></script>
 </head>
 <body>
 <a class="skip" href="#main" data-ko="본문으로 건너뛰기">Skip to content</a>

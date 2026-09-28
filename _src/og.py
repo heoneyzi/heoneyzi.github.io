@@ -2,7 +2,7 @@
 import sys, os, asyncio, pathlib
 from playwright.async_api import async_playwright
 site = os.path.abspath(sys.argv[1])
-html = f'''<!doctype html><html lang="en" data-theme="dark"><head><meta charset="utf-8">
+html = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+KR:wght@500&display=swap">
 <link rel="stylesheet" href="file://{site}/assets/site.css">
 <style>

@@ -1,6 +1,6 @@
 /* heoneyzi.github.io — progressive enhancement only; every page reads fine without it.
-   1) dark/light theme toggle   2) EN/KR toggle (elements with data-ko)   3) section highlight in the nav
-   4) 3D tilt + pointer light on link cards ([data-tilt])   5) top bar shadow once the page scrolls */
+   1) EN/KR toggle (elements with data-ko)   2) section highlight in the nav
+   3) 3D tilt + pointer light on link cards ([data-tilt])   4) top bar shadow once the page scrolls */
 (function () {
   'use strict';
   var root = document.documentElement;
@@ -9,23 +9,6 @@
     try { if (value === undefined) { return localStorage.getItem(key); } localStorage.setItem(key, value); } catch (e) { return null; }
     return null;
   }
-
-  /* ---------- theme */
-  function setTheme(t) {
-    root.setAttribute('data-theme', t);
-    var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) { meta.setAttribute('content', t === 'light' ? '#f4f8f8' : '#0b1011'); }
-    document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
-      b.setAttribute('aria-label', t === 'light' ? b.getAttribute('data-l-dark') : b.getAttribute('data-l-light'));
-    });
-  }
-  setTheme(root.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
-  document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var t = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-      setTheme(t); store('hz-theme', t);
-    });
-  });
 
   /* ---------- language */
   var swapAttrs = [['data-ko-aria', 'aria-label'], ['data-ko-title', 'title'], ['data-ko-alt', 'alt']];
