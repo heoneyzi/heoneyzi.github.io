@@ -10,7 +10,7 @@ Biomedical AI research portfolio for **https://heoneyzi.github.io/**.
 |---|---|
 | `index.html` | 표지(이름·대표 성과·연구 지도·지금 하는 일) → 대표 작업 → 논문 → 공부·글 → 걸어온 길 → 소개·연락 |
 | `projects/*.html` | 프로젝트 13개 페이지 (GDTR, VCC 2026, CAFA 6, PhenoFocus, FTF-VTG, Bi-CoT, GeoFlowAgent, BU-Net, Persona chatbot, Taste Trip, Genomics study, Hallucination study, Newsletter & Magazine) |
-| `assets/site.css`, `assets/site.js` | 스타일(다크 기본 + 라이트, 메인 색 CV 청록 `#008080`)과 테마·언어 전환 |
+| `assets/site.css`, `assets/site.js` | 항상 밝은 화면의 스타일(메인 색 CV 청록 `#008080`)과 언어 전환 |
 | `assets/og.png` | 링크 공유 미리보기 이미지 |
 | `Jiheon_Kang_CV.pdf` | CV (파일명을 유지한 채 교체하면 됩니다) |
 | `_src/` | 사이트를 만드는 원본: `content.py`(영문·한국어 문구), `ills.py`(프로젝트 그림), `build.py`, `og.py` |
@@ -36,7 +36,7 @@ Biomedical AI research portfolio for **https://heoneyzi.github.io/**.
 - PhenoFocus: 31개 화합물, 질의 1개로 한 **탐색적 MVP** 결과입니다.
 - Bi-CoT·FTF-VTG: 논문 원고와 결과 노트에 보고된 수치입니다.
 
-JavaScript가 꺼져 있어도 영어 본문과 모든 링크가 동작합니다. 테마·언어 선택만 브라우저에 저장하며, 방문자 데이터 수집이나 외부 분석 스크립트는 없습니다.
+JavaScript가 꺼져 있어도 영어 본문과 모든 링크가 동작합니다. 언어 선택만 브라우저에 저장하며, 방문자 데이터 수집이나 외부 분석 스크립트는 없습니다.
 
 ## Published sources
 
