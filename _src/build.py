@@ -304,13 +304,13 @@ PAPERS = [
          links=[('OpenReview', 'https://openreview.net/forum?id=Z9h1jiPbus'), ('bioRxiv', 'https://www.biorxiv.org/content/10.64898/2026.07.14.738370v1'),
                 ('Code', 'https://github.com/YAICON-8th-Think-Deep-in-Genome/TDiG')]),
     dict(slug='ftf-vtg', venue=('IEIE ’25', 'IEIE ’25'), note=('Summer Annual Conference · first author', '하계종합학술대회 · 제1저자'),
-         title='Maximizing Frame-Level Video Understanding for Efficient Video Temporal Grounding',
+         title='Frame-Level Understanding for Lightweight and Explainable Video Temporal Grounding',
          authors='<b>J. Kang</b>, S. Kim, H. Noh, H. Yang',
-         links=[('Code', gh('02_Paper/FTFVTG/code'))]),
+         links=[('Code', gh('02_Paper/FTFVTG/code')), ('PDF', 'https://github.com/heoneyzi/Paper/blob/main/FTFVTG/Frame-Level%20Understanding%20for%20Lightweight%20and%20Explainable%20Video%20Temporal%20Grounding.pdf')]),
     dict(slug='bi-cot', venue=('KAIC ’25', 'KAIC ’25'), note=('6th Korea AI Conference · first author', '제6회 한국인공지능학술대회 · 제1저자'),
-         title='Bi-CoT: Forward Reasoning and Reverse Verification for Explainable Multi-Hop QA',
+         title='Plug-and-Play Bi-CoT: Self-Aware Forward Reasoning and Reverse Verification for Explainable Multi-Hop QA',
          authors='<b>J. Kang</b>, S. Jung',
-         links=[('Code', gh('02_Paper/Bi-CoT/code'))]),
+         links=[('Code', gh('02_Paper/Bi-CoT/code')), ('PDF', 'https://github.com/heoneyzi/Paper/blob/main/Bi-CoT/Plug-and-Play%20Bi-CoT%20-%20Self-Aware%20Forward%20Reasoning%20and%20Reverse%20Verification%20for%20Explainable%20Multi-Hop%20QA.pdf')]),
 ]
 
 

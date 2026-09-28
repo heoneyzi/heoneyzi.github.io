@@ -304,6 +304,7 @@ PROJECTS = [
         gh=('02_Paper/FTFVTG', ('Paper page and code on GitHub', 'GitHub에서 논문 페이지와 코드 보기')),
         links=[
             ('code', 'https://github.com/heoneyzi/Frame_based_Training_Free-Video_Temporal_Grounding', ('Original code', '원본 코드')),
+            ('paper', 'https://github.com/heoneyzi/Paper/blob/main/FTFVTG/Frame-Level%20Understanding%20for%20Lightweight%20and%20Explainable%20Video%20Temporal%20Grounding.pdf', ('PDF', 'PDF')),
             ('gh', gh('04_Deep_Daiv/Project/Multimodal'), ('How the project started', '프로젝트가 시작된 과정')),
         ],
     ),
@@ -355,6 +356,7 @@ PROJECTS = [
         gh=('02_Paper/Bi-CoT', ('Paper page and code on GitHub', 'GitHub에서 논문 페이지와 코드 보기')),
         links=[
             ('code', 'https://github.com/heoneyzi/Bi-CoT', ('Original code', '원본 코드')),
+            ('paper', 'https://github.com/heoneyzi/Paper/blob/main/Bi-CoT/Plug-and-Play%20Bi-CoT%20-%20Self-Aware%20Forward%20Reasoning%20and%20Reverse%20Verification%20for%20Explainable%20Multi-Hop%20QA.pdf', ('PDF', 'PDF')),
         ],
     ),
     # ------------------------------------------------------------------------------------------- GeoFlowAgent
